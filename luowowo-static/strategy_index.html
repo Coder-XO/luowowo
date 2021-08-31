@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>骡窝窝-旅游攻略</title>
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <link href="./css/travelguide.css" rel="stylesheet" type="text/css">
+    <link href="./css/jqPagination.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="lww_header">
+            <div class="header_wrap">
+                <div class="header_logo">
+                    <a href="javascript:;" class="lww_logo"></a>
+                </div>
+                <ul class="header_nav">
+                    <li name="index"><a href="./index.html">首页</a></li>
+                    <li name="destination"><a href="./destination.html">目的地</a></li>
+                    <li name="strategy" class="header_nav_active"><a href="./strategy_index.html">旅游攻略</a></li>
+                    <li name="travel"><a href="./travel_index.html">旅游日记</a></li>
+                    <li name=""><a href="javascript:;">去旅行<i class="icon_caret_down"></i></a></li>
+                    <li name=""><a href="javascript:;">社区<i class="icon_caret_down"></i></a></li>
+                </ul>
+                <div class="header_search">
+                    <input type="text">
+                    <a class="icon_search"></a>
+                </div>
+                <div class="login_info" style="display: none;">
+                    <div class="head_user">
+                        <a href="./index.html">
+                            <img src="./images/default.jpg" id="login_user_headUrl">
+                            <i class="icon_caret_down"></i>
+                        </a>
+                    </div>
+                    <div class="header_msg">
+                        消息<i class="icon_caret_down"></i>
+                    </div>
+                    <div class="header_daka">
+                        <a href="javascript:;">打卡</a>
+                    </div>
+                </div>
+                <div class="login-out">
+                    <a class="weibo-login" href="./strategy_index.html#" title="微博登录" rel="nofollow"></a>
+                    <a class="qq-login" href="./strategy_index.html#" title="QQ登录" rel="nofollow"></a>
+                    <a class="weixin-login" href="./strategy_index.html#" title="微信登录" rel="nofollow"></a>
+                    <a id="_j_showlogin" title="登录骡窝窝" href="./login.html" rel="nofollow">登录</a>
+                    <span class="split">|</span>
+                    <a href="./regist.html" title="注册帐号" rel="nofollow">注册</a>
+                </div>
+            </div>
+            <div class="shadow"></div>
+        </div>
+    </div>
+    <div id="app" class="container"><br><br>
+        <div class="main clearfix">
+            <div class="content">
+                <div class="filter">
+                    <div class="filter-wrapper clearfix">
+                        <ul class="filter-tag">
+                            <li class="on _j_tag"><a href="javascript:;">全部</a></li>
+                            <li data-tid="5e3286e8304b00003b0053d8" class="_j_tag"><a href="javascript:;">文化</a></li>
+                            <li data-tid="5e3286e8304b00003b0053d9" class="_j_tag"><a href="javascript:;">特别策划</a></li>
+                            <li data-tid="5e3286e8304b00003b0053da" class="_j_tag"><a href="javascript:;">美食</a></li>
+                            <li data-tid="5e3286e8304b00003b0053dd" class="_j_tag"><a href="javascript:;">节庆</a></li>
+                            <li data-tid="5e3286e8304b00003b0053e7" class="_j_tag"><a href="javascript:;">登山</a></li>
+                            <li data-tid="5e3286e8304b00003b0053e5" class="_j_tag"><a href="javascript:;">星旅行</a></li>
+                            <li data-tid="5e3286e8304b00003b0053e6" class="_j_tag"><a href="javascript:;">滑雪</a></li>
+                            <li data-tid="5e3286e8304b00003b0053e1" class="_j_tag"><a href="javascript:;">摄影</a></li>
+                            <li data-tid="5e3286e8304b00003b0053e3" class="_j_tag"><a href="javascript:;">建筑</a></li>
+                            <li data-tid="5e3286e8304b00003b0053e4" class="_j_tag"><a href="javascript:;">家庭</a></li>
+                            <li data-tid="5e3286e8304b00003b0053dc" class="_j_tag"><a href="javascript:;">自驾</a></li>
+                            <li data-tid="5e3286e8304b00003b0053d7" class="_j_tag"><a href="javascript:;">户外</a></li>
+                            <li data-tid="5e3286e8304b00003b0053de" class="_j_tag"><a href="javascript:;">必备</a></li>
+                            <li data-tid="5e3286e8304b00003b0053db" class="_j_tag"><a href="javascript:;">购物</a></li>
+                            <li data-tid="5e3286e8304b00003b0053e0" class="_j_tag"><a href="javascript:;">周边</a></li>
+                            <li data-tid="5e3286e8304b00003b0053d5" class="_j_tag"><a href="javascript:;">数据报告</a></li>
+                            <li data-tid="5e3286e8304b00003b0053e2" class="_j_tag"><a href="javascript:;">旅行主义</a></li>
+                            <li data-tid="5e3286e8304b00003b0053df" class="_j_tag"><a href="javascript:;">观赏</a></li>
+                            <li data-tid="5e3286e8304b00003b0053d6" class="_j_tag"><a href="javascript:;">休闲</a></li>
+                        </ul> <a href="javascript:void(0);" class="trigger _j_trigger_btn">更多</a>
+                    </div>
+                </div>
+                <div class="guide-list">
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2a9c300000e9003ae3"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgEaVyK_4SAdEn8AA10khckiyI39.jpeg"></div>
+                            <div class="detail">
+                                <h3>超实用的长隆亲子游攻略，出发前必看</h3>
+                                <ul>
+                                    带娃出游去哪玩？必须是广州长隆旅游度假区！作为国内超热门的亲子游乐王国，广州长隆每年都会吸引一大批游客！那么，广州长隆究竟有几个乐园和酒店？亲子出游怎么玩更方便又尽兴？酒店又该如何选择？小蜗牛帮你一一解答，还有各种独家游玩小妙招双手奉上！
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>广州</span> <span
+                                        class="view"><i></i>1</span></div>
+                            </div>
+                        </a></div>
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2a9c300000e9003ae4"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgED1v7lwqAZm1mAAG55YkXRWI84.jpeg"></div>
+                            <div class="detail">
+                                <h3>有娃必看，广州长隆野生动物园全攻略</h3>
+                                <ul>
+                                    如果要说动物园，楼主强烈推荐带娃去广州长隆野生动物园！野生动物园有许多，但是广州长隆野生动物园只有一个！为什么长隆野生动物园如此与众不同呢？
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>广州</span> <span
+                                        class="view"><i></i>143088</span></div>
+                            </div>
+                        </a></div>
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2a9c300000e9003ae5"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgB3FEsZt6AaeAdAARfi3uw2CU10.jpeg"></div>
+                            <div class="detail">
+                                <h3>广州小吃名店红黑榜：你还是当年珠江畔那个老字号吗？</h3>
+                                <ul>
+                                    企鹅吃喝指南｜“城市指南“第4站－广州 小吃篇
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>广州</span> <span
+                                        class="view"><i></i>18916</span></div>
+                            </div>
+                        </a></div>
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2c9c300000e9003ae6"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgBEFtYAbaAZ-Z4AAdEuJZ3y5o22.jpeg"></div>
+                            <div class="detail">
+                                <h3>吃20cm的油炸大蜈蚣、⑥种昆虫！五毒之首到底什么味道？</h3>
+                                <ul>
+                                    这是一个悲伤的故事，那天，我约瞎瞎出来吃饭……剩我独自一人挑战1%的广州人才敢吃的虫！提示：前方高能，胆小勿入！
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>广州</span> <span
+                                        class="view"><i></i>29677</span></div>
+                            </div>
+                        </a></div>
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2c9c300000e9003ae7"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgBZ1nlfSaAUDRhAAcwkdSo3Hk98.jpeg"></div>
+                            <div class="detail">
+                                <h3>上海十大人气景点，你都去过吗？</h3>
+                                <ul>
+                                    上海素有“魔都”之称，一直是国内繁华都市的代表。根据马蜂窝用户出行数据，以下是最受欢迎的10个上海景点。这些景点是上海的城市精华，适合初次造访想要打卡景点的游客
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>上海</span> <span
+                                        class="view"><i></i>4002983</span></div>
+                            </div>
+                        </a></div>
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2c9c300000e9003ae8"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgED1wL1WyAfh6wAAIJgBDsRpA21.jpeg"></div>
+                            <div class="detail">
+                                <h3>N刷迪士尼，一篇干货满满的上海迪士尼攻略</h3>
+                                <ul>
+                                    买了两次迪士尼季卡，N刷迪士尼，迪士尼迷妹为大家总结的一份上海迪士尼攻略。
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>上海</span> <span
+                                        class="view"><i></i>262521</span></div>
+                            </div>
+                        </a></div>
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2c9c300000e9003ae9"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgBEFrkRVCAUV_ZAAWtxoKD0bU28.jpeg"></div>
+                            <div class="detail">
+                                <h3>懒人吃货指南 | 轻松吃遍地道上海小吃</h3>
+                                <ul>
+                                    去一个地方旅行当然要尝尝当地的特色美食，不然总觉得这趟旅行不完整。但是对于不熟悉上海的游客来说，“哪些是老上海小吃？去哪里能吃到地道的？”这些都是头疼的问题。这篇攻略将会给大家介绍老上海小吃，推荐一些老字号，并附上周边游玩小Tips
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>上海</span> <span
+                                        class="view"><i></i>191107</span></div>
+                            </div>
+                        </a></div>
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2c9c300000e9003aea"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgED1wHkciAaj24AAuSFkxN7zE24.jpeg"></div>
+                            <div class="detail">
+                                <h3>上海海昌海洋公园一日游攻略</h3>
+                                <ul>
+                                    被高铁站的广告吸引到了海昌海洋公园，不得不说，这是我在上海玩过的最有趣的海洋公园。
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>上海</span> <span
+                                        class="view"><i></i>24908</span></div>
+                            </div>
+                        </a></div>
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2c9c300000e9003aeb"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgBEFp319-AAngOAANweV_VNTM54.jpeg"></div>
+                            <div class="detail">
+                                <h3>北京逛故宫全技能Get！</h3>
+                                <ul>
+                                    北京土著说：我逛不逛，它都在那儿，我想啥时候逛就啥时候逛！外地游客说：来到大北京，必须逛故宫！常住在北京的外地人说：老家人来了N次，故宫已经逛了N次！不管你是从没逛过，还是第一次逛，还是正要第N+1次逛，逛故宫的技能你都get了吗？
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>北京</span> <span
+                                        class="view"><i></i>1554775</span></div>
+                            </div>
+                        </a></div>
+                    <div class="item clearfix"><a href="./strategy_detail.html?id=5e33bd2c9c300000e9003aec"
+                            target="_blank" class="_j_item">
+                            <div class="img"><img src="./images/wKgBZ1ny08-AalUvAAkEbRsgv2811.jpeg"></div>
+                            <div class="detail">
+                                <h3>周末去爬八达岭长城</h3>
+                                <ul>
+                                    八达岭长城，位于北京市西北部的延庆区，是旧时军都山关沟古道；作为万里长城的一部分，这个建于明代的长城是最早向游人开放的地段，所以整个景区的餐饮、娱乐、交通等配套设施较为完善。
+                                </ul>
+                                <div class="extra"><span class="location"><i></i>北京</span> <span
+                                        class="view"><i></i>211232</span></div>
+                            </div>
+                        </a></div>
+                    <div style="float: right;">
+                        <div style="float: left;"><span style="line-height: 30px;"> 共2页 / 17条&nbsp;&nbsp;&nbsp;</span>
+                        </div>
+                        <div id="pagination" class="jq-pagination" style="display: inline;"><a class="prev disabled"
+                                href="javascript:void(0);" jp-role="prev" jp-data="0">上一页</a><a
+                                href="javascript:void(0);" jp-role="page" jp-data="1" class="active">1</a><a
+                                href="javascript:void(0);" jp-role="page" jp-data="2">2</a><a class="next"
+                                href="javascript:void(0);" jp-role="next" jp-data="2">下一页</a><a class="last"
+                                href="javascript:void(0);" jp-role="last" jp-data="2">尾页</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-sales">
+                <h3>本周热卖</h3>
+                <ul>
+                    <li><a href="javascript:;" target="_blank"><span class="image"><img
+                                    src="./images/wKgBEFs6E4yAPz00AAhnvJUJ1j8238.gif"></span>
+                            <div title="广州长隆野生动物世界门票    随买随用 ／广州长隆旅游度假区／一票通玩 ／ 快速出票快捷入园 ／ 含空中览车及小火车/亲子乐园/赠送电子导览／自然零距离／广州长隆野生动物园"
+                                class="title">
+                                广州长隆野生动物世界门票 随买随用 ／广州...</div> <span class="price">¥260</span>
+                        </a></li>
+                    <li><a href="javascript:;" target="_blank"><span class="image"><img
+                                    src="./images/wKgED1wweM2AVCMFAAzr37WPWDI967.gif"></span>
+                            <div title="广州长隆欢乐世界门票   当天可买／广州长隆旅游度假区／快速出票快捷入园／收藏店铺送卷送攻略／广东番禺汉溪长隆/长隆成人票／情侣票／家庭票／双人票／儿童票"
+                                class="title">
+                                广州长隆欢乐世界门票 当天可买／广州长隆旅...</div> <span class="price">¥187</span>
+                        </a></li>
+                    <li><a href="javascript:;" target="_blank"><span class="image"><img
+                                    src="./images/wKgED1wdwVmAVaZUADon6OL7_xw084.gif"></span>
+                            <div title="当天可订/广州长隆野生动物世界门票/长隆野生动物园/广州长隆旅游度假区/含缆车小火车/南北门均可取票（提前1天规则退）" class="title">
+                                当天可订/广州长隆野生动物世界门票/长隆野生...</div> <span class="price">¥256</span>
+                        </a></li>
+                    <li><a href="javascript:;" target="_blank"><span class="image"><img
+                                    src="./images/wKgBEFrEdj-Ac-nXAAOvgGsSLJI85.jpeg"></span>
+                            <div title="广州长隆水上乐园门票 一票通玩（电子票／当地必玩／免预约／超级大喇叭/热浪谷/意想不到的水上乐园）" class="title">广州长隆水上乐园门票
+                                一票通玩（电子票／当地...</div> <span class="price">¥122</span>
+                        </a></li>
+                    <li><a href="javascript:;" target="_blank"><span class="image"><img
+                                    src="./images/wKgED1wk2LeAC2NJAAJQtab6Yqw67.jpeg"></span>
+                            <div title="寻味广州1日游（6人小团·探黄埔军校陈家祠·电车看广州塔+沙面·西关美食秘籍·本地人带玩）" class="title">
+                                寻味广州1日游（6人小团·探黄埔军校陈家祠·...</div> <span class="price">¥288</span>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="footer">
+        <div class="ft-content" style="width: 1105px">
+            <div class="ft-info clearfix">
+                <dl class="ft-info-col ft-info-intro">
+                    <dt>骡窝窝旅游网</dt>
+                    <dd>叩丁狼是一家专注于培养高级IT技术人才，为学员提供定制化IT职业规划方案及</dd>
+                    <dd>意见咨询服务的教育科技公司，为您提供海量优质课程，以及创新的线上线下学</dd>
+                    <dd>习体验，帮助您获得全新的个人发展和能力提升。</dd>
+                </dl>
+                <dl class="ft-info-col ft-info-qrcode">
+                    <dd>
+                        <span class="ft-qrcode-tejia"></span>
+                    </dd>
+                    <dd>
+                        <span class="ft-qrcode-weixin"></span>
+                    </dd>
+                    <dd>
+                        <span class="ft-qrcode-weixin" style="background-image: url(./images/qrcode.jpg&#39;)"></span>
+                    </dd>
+                </dl>
+                <dl class="ft-info-social">
+                    <dt>向崇尚自由的加勒比海盗致敬！</dt>
+                    <dd>
+                        <a class="ft-social-weibo" target="_blank" href="javascript:;" rel="nofollow"><i
+                                class="ft-social-icon"></i></a>
+                        <a class="ft-social-qqt" target="_blank" href="javascript:;" rel="nofollow"><i
+                                class="ft-social-icon"></i></a>
+                        <a class="ft-social-qzone" target="_blank" href="javascript:;" rel="nofollow"><i
+                                class="ft-social-icon"></i></a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="ft-links">
+                <a target="_blank" href="http://china.makepolo.com/">马可波罗</a><a target="_blank"
+                    href="http://www.onlylady.com/">Onlylady女人志</a><a target="_blank"
+                    href="http://trip.elong.com/">艺龙旅游指南</a><a target="_blank" href="http://www.cncn.com/">欣欣旅游网</a>
+                <a target="_blank" href="http://www.8264.com/">户外运动</a><a target="_blank"
+                    href="http://www.yue365.com/">365音乐网</a><a target="_blank"
+                    href="http://ishare.iask.sina.com.cn/">爱问共享资料</a><a target="_blank"
+                    href="http://www.uzai.com/">旅游网</a>
+                <a target="_blank" href="http://www.zongheng.com/">小说网</a>
+                <a target="_blank" href="http://www.xuexila.com/">学习啦</a><a target="_blank"
+                    href="http://www.yododo.com/">游多多自助游</a><a target="_blank" href="http://www.zhcpic.com/">问答</a><a
+                    target="_blank" href="http://huoche.mafengwo.cn/">火车时刻表</a>
+                <a target="_blank" href="http://www.lvmama.com/">驴妈妈旅游网</a>
+                <a target="_blank" href="http://www.haodou.com/">好豆美食网</a><a target="_blank"
+                    href="http://www.taoche.com/">二手车</a><a target="_blank" href="http://www.lvye.cn/">绿野户外</a><a
+                    target="_blank" href="http://www.tuniu.com/">途牛旅游网</a>
+                <a target="_blank" href="http://www.mapbar.com/">图吧</a>
+                <a target="_blank" href="http://www.chnsuv.com/">SUV联合越野</a><a target="_blank"
+                    href="http://www.uc.cn/">手机浏览器</a><a target="_blank" href="http://sh.city8.com/">上海地图</a><a
+                    target="_blank" href="http://www.tianqi.com/">天气预报查询</a>
+                <a target="_blank" href="http://www.ly.com/">同程旅游</a>
+                <a target="_blank" href="http://www.tieyou.com/">火车票</a><a target="_blank"
+                    href="http://www.yunos.com/">YunOS</a><a target="_blank" href="http://you.ctrip.com/">携程旅游</a><a
+                    target="_blank" href="http://www.jinjiang.com/">锦江旅游</a>
+                <a target="_blank" href="http://www.huoche.net/">火车时刻表</a>
+                <a target="_blank" href="http://www.tripadvisor.cn/">TripAdvisor</a><a target="_blank"
+                    href="http://www.tianxun.com/">天巡网</a><a target="_blank" href="http://www.mayi.com/">短租房</a><a
+                    target="_blank" href="http://www.zuzuche.com/">租租车</a>
+                <a target="_blank" href="http://www.5fen.com/">五分旅游网</a>
+                <a target="_blank" href="http://www.zhuna.cn/">酒店预订</a><a target="_blank"
+                    href="http://www.ailvxing.com/">爱旅行网</a><a target="_blank"
+                    href="http://360.mafengwo.cn/all.php">旅游</a><a target="_blank"
+                    href="http://vacations.ctrip.com/">旅游网</a>
+                <a target="_blank" href="http://www.wed114.cn/">wed114结婚网</a>
+                <a target="_blank" href="http://www.chexun.com/">车讯网</a><a target="_blank"
+                    href="http://www.aoyou.com/">遨游旅游网</a><a target="_blank" href="http://www.91.com/">手机</a>
+                <a href="javascript:;" target="_blank">更多友情链接&gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

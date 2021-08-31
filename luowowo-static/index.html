@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>骡窝窝-首页</title>
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <link href="./css/index.css" rel="stylesheet" type="text/css">
+    <link href="./css/jqPagination.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="navbar">
+    <div class="lww_header">
+        <div class="header_wrap">
+            <div class="header_logo">
+                <a href="javascript:void(0);" class="lww_logo"></a>
+            </div>
+            <ul class="header_nav">
+                <li name="index" class="header_nav_active"><a href="./index.html">首页</a></li>
+                <li name="destination"><a href="./destination.html">目的地</a></li>
+                <li name="strategy"><a href="./strategy_index.html">旅游攻略</a>
+                </li>
+                <li name="travel"><a href="./travel_index.html">旅游日记</a></li>
+                <li name=""><a href="javascript:void(0);">去旅行<i class="icon_caret_down"></i></a></li>
+                <li name=""><a href="javascript:void(0);">社区<i class="icon_caret_down"></i></a></li>
+            </ul>
+            <div class="header_search">
+                <input type="text">
+                <a class="icon_search"></a>
+            </div>
+            <div class="login_info" style="display: none;">
+                <div class="head_user">
+                    <a href="./index.html">
+                        <img src="./images/default.jpg" id="login_user_headUrl">
+                        <i class="icon_caret_down"></i>
+                    </a>
+                </div>
+                <div class="header_msg">
+                    消息<i class="icon_caret_down"></i>
+                </div>
+                <div class="header_daka">
+                    <a href="javascript:void(0);">打卡</a>
+                </div>
+            </div>
+            <div class="login-out">
+                <a class="weibo-login" href="./login.html" title="微博登录" rel="nofollow"></a>
+                <a class="qq-login" href="./login.html" title="QQ登录" rel="nofollow"></a>
+                <a class="weixin-login" href="./login.html" title="微信登录" rel="nofollow"></a>
+                <a id="_j_showlogin" title="登录骡窝窝" href="./login.html" rel="nofollow">登录</a>
+                <span class="split">|</span>
+                <a href="./regist.html" title="注册帐号" rel="nofollow">注册</a>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+</div>
+
+<div id="app">
+    <div id="_j_mfw_focus" class="mfw-focus">
+        <div class="show-slider" style="height: 450px;">
+            <ul class="show-image">
+                <!--                <li data-id="0" class="show_image first" style="display: none;"><a-->
+                <!--                        href="./traveldetail.html?id=5e3bf6a93f050000ff0035ec" class="show-pic"><img-->
+                <!--                        src="./images/wKgE2l0czFWAZCSiAAes8lIsP3I057.jpg"></a> <a href="javascript:void(0);"-->
+                <!--                                                                                  class="show-title dark">-->
+                <!--                    <div class="date"><span class="day">15</span>/Oct.2020</div>-->
+                <!--                    <h3>格鲁吉亚：与它爱恨纠葛，犹述一书武侠情愁。来饮壶好酒？</h3>-->
+                <!--                </a></li>-->
+                <!--                <li data-id="1" class="show_image" style="display: none;"><a-->
+                <!--                        href="./traveldetail.html?id=5e3bf6a93f050000ff0035ed" class="show-pic"><img-->
+                <!--                        src="./images/wKgE2l0bAz-AUqLVAAgd7dbvAMg911.jpg"></a> <a href="javascript:void(0);"-->
+                <!--                                                                                  class="show-title dark">-->
+                <!--                    <div class="date"><span class="day">15</span>/Oct.2020</div>-->
+                <!--                    <h3>港式文艺漫步地图，想对你说一万遍“我可以”（书店、美食、景观大搜罗）</h3>-->
+                <!--                </a></li>-->
+                <!--                <li data-id="2" class="show_image" style="display: list-item;"><a-->
+                <!--                        href="./traveldetail.html?id=5e3bf6a93f050000ff0035ee" class="show-pic"><img-->
+                <!--                        src="./images/wKgE2l0aFHOAQTIqAAbVLgQTk8Q355.jpg"></a> <a href="javascript:void(0);"-->
+                <!--                                                                                  class="show-title dark">-->
+                <!--                    <div class="date"><span class="day">15</span>/Oct.2020</div>-->
+                <!--                    <h3>地道乐山人带你吃遍心中List（内含早、中、晚、宵夜攻略）</h3>-->
+                <!--                </a></li>-->
+                <!--                <li data-id="3" class="show_image" style="display: none;"><a-->
+                <!--                        href="./traveldetail.html?id=5e3bf6a93f050000ff0035ef" class="show-pic"><img-->
+                <!--                        src="./images/wKgE2l0VoBaAavyDAALOJmkn3QE534.jpg"></a> <a href="javascript:void(0);"-->
+                <!--                                                                                  class="show-title dark">-->
+                <!--                    <div class="date"><span class="day">15</span>/Oct.2020</div>-->
+                <!--                    <h3>追鲸的日子啊，那是一段云上的时光</h3>-->
+                <!--                </a></li>-->
+                <!--                <li data-id="4" class="show_image" style="display: none;"><a-->
+                <!--                        href="./traveldetail.html?id=5e3bf6a93f050000ff0035f0" class="show-pic"><img-->
+                <!--                        src="./images/wKgE2l0VxGSAFPg0AAVbWqeaXt4000.jpg"></a> <a href="javascript:void(0);"-->
+                <!--                                                                                  class="show-title dark">-->
+                <!--                    <div class="date"><span class="day">15</span>/Oct.2020</div>-->
+                <!--                    <h3>游走在《请回答1988》的韩国｜首尔、议政府、仁川的寻寻觅觅</h3>-->
+                <!--                </a></li>-->
+            </ul>
+            <ul class="show-nav">
+                <!--                <li class="show_nav"><a href="javascript:"><img src="./images/wKgE2l0czFWAZCSiAAes8lIsP3I057.jpg"-->
+                <!--                                                                height="62" width="110">-->
+                <!--                    <span></span></a></li>-->
+                <!--                <li class="show_nav"><a href="javascript:"><img src="./images/wKgE2l0bAz-AUqLVAAgd7dbvAMg911.jpg"-->
+                <!--                                                                height="62" width="110">-->
+                <!--                    <span></span></a>-->
+                <!--                </li>-->
+                <!--                <li class="show_nav active"><a href="javascript:"><img-->
+                <!--                        src="./images/wKgE2l0aFHOAQTIqAAbVLgQTk8Q355.jpg" height="62" width="110">-->
+                <!--                    <span></span></a></li>-->
+                <!--                <li class="show_nav"><a href="javascript:"><img src="./images/wKgE2l0VoBaAavyDAALOJmkn3QE534.jpg"-->
+                <!--                                                                height="62" width="110">-->
+                <!--                    <span></span></a></li>-->
+                <!--                <li class="show_nav"><a href="javascript:"><img src="./images/wKgE2l0VxGSAFPg0AAVbWqeaXt4000.jpg"-->
+                <!--                                                                height="62" width="110">-->
+                <!--                    <span></span></a></li>-->
+                <!--            </ul>-->
+                <a target="_blank" href="javascript:void(0);" class="show-more">历历在目</a>
+        </div>
+        <div id="_j_index_search" class="search-container">
+            <div class="search-group">
+                <div id="_j_index_search_tab" class="searchtab">
+                    <ul class="clearfix">
+                        <li data-index="-1" class="tab-selected"><i></i>全部</li>
+                        <li data-index="0"><i></i>目的地</li>
+                        <li data-index="1"><i></i>攻略</li>
+                        <li data-index="2"><i></i>游记</li>
+                        <li data-index="3"><i></i>找人</li>
+                    </ul>
+                </div>
+                <div id="_j_index_search_bar_all" class="searchbar">
+                    <div class="search-wrapper">
+                        <div class="search-input"><input name="keyword" id="keyword" type="text"
+                                                         placeholder="搜目的地/攻略/游记/用户" autocomplete="off"></div>
+                    </div>
+                    <div id="_j_index_search_btn_all" class="search-button"><a role="button" href="javascript:"><i
+                            class="icon-search"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mfw-container clearfix">
+        <div class="sales-entrys-container clearfix"><a href="javascript:void(0);"
+                                                        class="sales-entrys-item entrys-bg-sales">
+            <div class="sales-entrys-title">
+                自由行
+            </div>
+            <div class="sales-entrys-subtitle">
+                旅行就要freestyle
+            </div>
+        </a> <a href="javascript:void(0);" class="sales-entrys-item entrys-bg-group">
+            <div class="sales-entrys-title">
+                跟团游
+            </div>
+            <div class="sales-entrys-subtitle">
+                省心省力 行程透明
+            </div>
+        </a> <a href="javascript:void(0);" class="sales-entrys-item entrys-bg-localdeals">
+            <div class="sales-entrys-title">
+                当地游
+            </div>
+            <div class="sales-entrys-subtitle">
+                最地道的玩法体验
+            </div>
+        </a> <a href="javascript:void(0);" class="sales-entrys-item entrys-bg-flight">
+            <div class="sales-entrys-title">
+                机票
+            </div>
+            <div class="sales-entrys-subtitle">
+                特惠一折起
+            </div>
+        </a> <a href="javascript:void(0);" class="sales-entrys-item entrys-bg-visa">
+            <div class="sales-entrys-title">
+                签证
+            </div>
+            <div class="sales-entrys-subtitle">
+                服务优质 出签率高
+            </div>
+        </a> <a href="javascript:void(0);" class="sales-entrys-item entrys-bg-ship">
+            <div class="sales-entrys-title">
+                邮轮
+            </div>
+            <div class="sales-entrys-subtitle">
+                移动的海上城堡
+            </div>
+        </a></div>
+        <div class="mfw-wrapper">
+            <div class="mfw-travelnotes">
+                <div class="navbar clearfix">
+                    <ul id="_j_tn_nav" class="tn-nav">
+                        <li class="_j_gs_tab tn-nav-hot active"><a href="javascript:void(0);">热门游记</a></li>
+                        <li class="_j_gs_tab tn-nav-new"><a href="javascript:void(0);">最新发表</a></li>
+                    </ul>
+                    <div class="tn-write"><a href="javascript:void(0);" class="btn-add"><i></i>写游记</a></div>
+                </div>
+                <div class="pagelet-block">
+                    <form method="post" id="searchForm"><input type="hidden" name="orderType" value="1"
+                                                               id="orderType">
+                        <div id="_j_tn_content">
+                            <div class="tn-list">
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgE2l0ceZWATUSUAA0zDKigyFs01.jpeg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035e5"-->
+                                <!--                                                   target="_blank">5月趣上海，非去不可</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035e5"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                有时候，人必须远行，才能发现近在咫尺的东西，2岁的这几个月，小脚成长很快，大小便控制自如，让我这个老妈子颇具成就感;语言进步明显，词汇量飞速增加;开始能安静下来而且能坐得住。-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">23</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        上海</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>13/22</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgE2l0Ux9aAU1NVAAvghJ2xVDs93.jpeg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ea"-->
+                                <!--                                                   target="_blank">再见成都</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ea"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                从大学时候就被来自 四川 的同学安利春熙路的美女、 成都-->
+                                <!--                                                串串、郫县豆瓣等等，个人最感兴趣的还是美食了，曾经立下目标，要“吃”下几座城市： 广州 、 北京 、 西安 、 成都 、 武汉-->
+                                <!--                                                、 南京 、 ...-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">1</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        成都</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>31/14</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgE2l0MmZ-ALpA5AAsArQDM8NM53.jpeg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035eb"-->
+                                <!--                                                   target="_blank">超详细易懂的泰国攻略，曼谷+普吉7天自由行</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035eb"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                哈喽大家好，我是花生，是一个热爱旅游，梦想吃遍全世界的摄影师，说到 泰国 ，相信很多小伙伴们都不陌生，但是也还有很多朋友没去过-->
+                                <!--                                                泰国 ，或者没有来一次自由行，这里花生给打算第一次去 泰国 的小伙伴们弄...-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">134</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        泰国</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>312/144</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgE2l0F4oaAcLopAB6JMSSYte898.jpeg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ec"-->
+                                <!--                                                   target="_blank">格鲁吉亚：与它爱恨纠葛，犹述一书武侠情愁。来饮壶好酒？\r\n</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ec"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                动不动手写这篇游记，我有过纠结。ok，fine.我承认就犹豫了十分钟，因为有太多人，为我创造故事的人想记录。anyway，既然决定要写，那么，咱们就得像小学英语作文一样严格要求，依次排列，一个个来咆哮...-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">884</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        俄罗斯</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>20010/563</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgE2l0aD42AUMzWAAshp0JkpnA725.jpg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035e6"-->
+                                <!--                                                   target="_blank">上海海昌海洋公园</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035e6"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                上海 一行，最后一天我们逛了逛新开的海洋公园。 上海 这个季节正是梅雨季，所以天气凉爽。-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">23</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        上海</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>34/21</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgE2l0ZXLaAQ9X7AAg3M8RobGA39.jpeg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035e1"-->
+                                <!--                                                   target="_blank">广州三天三夜|跟随必字榜吃喝玩乐耍</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035e1"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                已经数不清是第几次 广州 行了，归根结底，仍然是因为吃呀。跟 香港 一样， 广州 总觉得遍地都好吃的，而 广州-->
+                                <!--                                                人的爱吃也是全国出了名的， 比如 有一句话流传“ 广东 人连 福建 人都吃”！身为 福建...-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">0</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        广州</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>130/7</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgE2l0S_hyAeN3KAAIj47mz_NM02.jpeg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ef"-->
+                                <!--                                                   target="_blank">追鲸的日子啊，那是一段云上的时光</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ef"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                2019年4月21日， 斯里兰卡 首都 科伦坡 等多地先后发生8次连环炸弹袭击，涉及至少3座教堂及3家酒店。4月22日，-->
+                                <!--                                                斯里兰卡 发生第9次爆炸。4月24日， 斯里兰卡 一电影院附近发生爆炸。死伤惨...-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">70</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        斯里兰卡</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>76000/2379</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgE2l0E3z-AdR8zAAumAmCWnzk31.jpeg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ee"-->
+                                <!--                                                   target="_blank">地道乐山人带你吃遍心中List（内含早、中、晚、宵夜攻略）</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ee"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                巴蜀之国，美食之都。全国人民都知道 四川 好吃的多， 成都 好吃的多；而 四川 人民一定知道： 乐山 美食多！-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">2205</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        四川</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>77000/120</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgE2l0Bp9-ARit2AAeLaBkjPCE43.jpeg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035e9"-->
+                                <!--                                                   target="_blank">世园会—你值得打卡的地方</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035e9"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                常看新闻的老人们一定会感叹，不管是不是住在 北京-->
+                                <!--                                                ，都有必要去欣赏一下世园会~据说这是未来十年我国举办的级别最高、规模最大的专业类世园会哦~-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">1</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        北京</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>31/14</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <div class="tn-item clearfix">-->
+                                <!--                                    <div class="tn-image"><a href="javascript:void(0);" target="_blank"><img-->
+                                <!--                                            src="./images/wKgBZ1z4dPeAUvpLAAxKZgmzpAw47.jpeg"-->
+                                <!--                                            style="display: inline;"></a></div>-->
+                                <!--                                    <div class="tn-wrapper">-->
+                                <!--                                        <dl>-->
+                                <!--                                            <dt><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ed"-->
+                                <!--                                                   target="_blank">港式文艺漫步地图，想对你说一万遍“我可以”</a></dt>-->
+                                <!--                                            <dd><a href="./traveldetail.html?id=5e3bf6a93f050000ff0035ed"-->
+                                <!--                                                   target="_blank">-->
+                                <!--                                                三天半，拨开 香港 的浮华表面，用相机呈现我眼中的港式文艺。-->
+                                <!--                                            </a></dd>-->
+                                <!--                                        </dl>-->
+                                <!--                                        <div class="tn-extra"><span class="tn-ding"><a href="javascript:void(0);"-->
+                                <!--                                                                                       data-japp="articleding"-->
+                                <!--                                                                                       data-iid="12451790"-->
+                                <!--                                                                                       data-vote="2157"-->
+                                <!--                                                                                       rel="nofollow"-->
+                                <!--                                                                                       class="btn-ding"></a> <em-->
+                                <!--                                                id="topvote12451790">2205</em></span> <span-->
+                                <!--                                                class="tn-place"><i></i> <a href="javascript:void(0);"-->
+                                <!--                                                                            rel="nofollow" class="_j_gs_item">-->
+                                <!--                                                        香港</a>，by-->
+                                <!--                                                </span> <span class="tn-user"><a href="javascript:void(0);"-->
+                                <!--                                                                                 target="_blank" rel="nofollow"><img-->
+                                <!--                                                src="./images/default.jpg">-->
+                                <!--                                                        dafei-->
+                                <!--                                                    </a></span> <span class="tn-nums"><i></i>41000/1240</span></div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                            </div>
+                            <br><br>
+                            <div style="float: right;">
+                                <div id="pagination" class="jq-pagination" style="display: inline;">
+                                    <a class="prev disabled" href="javascript:void(0);" jp-role="prev"
+                                       jp-data="0">上一页</a>
+                                    <a href="javascript:void(0);" jp-role="page" jp-data="1"
+                                       class="active">1</a>
+                                    <a href="javascript:void(0);"
+                                       jp-role="page"
+                                       jp-data="2">2</a>
+                                    <a href="javascript:void(0);"
+                                       jp-role="page"
+                                       jp-data="2">3</a>
+                                    <a class="next"
+                                       href="javascript:void(0);"
+                                       jp-role="next"
+                                       jp-data="2">下一页</a>
+                                    <a class="last" href="javascript:void(0);" jp-role="last"
+                                       jp-data="2">尾页</a></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="mfw-aside">
+            <div class="asidebox safety-prevention"><a href="javascript:void(0);"
+                                                       style="display: block; margin-top: 5px;"><img
+                    src="./images/index-link.png" width="218"
+                    height="31"></a></div>
+            <div class="asidebox box-gonglve">
+                <div class="asidebox-hd">
+                    <h2 class="hd-title">旅游攻略推荐</h2> <a href="./strategy_index.html" class="hd-right">更多</a>
+                </div>
+                <div class="asidebox-bd">
+                    <div class="gonglve-item">
+                        <div class="img"><a href="javascript:void(0);"><img width="200px"
+                                                                            src="./images/wKgE2l0chlCATLEFAA8R6jYHC0U155.jpg"><span
+                                class="mark">自由行攻略</span></a></div>
+                        <h3><a href="javascript:void(0);">广州长隆野生动物园</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="m-hotsale">
+                <h3 class="hd">本周热卖</h3>
+                <ul>
+                    <li><a href="javascript:void(0);" target="_blank"><span class="image"><img
+                            src="./images/wKgIC1xOo6iAS0mlABAmBVFn6AA539.gif" height="70"
+                            width="100"></span>
+                        <div title="最高立减800·上海飞马尔代夫鲁滨逊努努岛7天蜜月自由行（一价全包+私人泳池+儿童吃住优惠+婚纱摄影+可预订奥静/努努岛/中央格兰宁/康迪玛）"
+                             class="title">最高立减800·上海飞马尔代夫鲁滨逊努努...
+                        </div>
+                        <span class="price">¥11880起</span>
+                    </a></li>
+                    <li><a href="javascript:void(0);" target="_blank"><span class="image"><img
+                            src="./images/wKgED1vzqwOAAsFFAAL1lFyHgLg47.jpeg" height="70"
+                            width="100"></span>
+                        <div title="【五月美食节】上海出发塞班岛6天5晚自由行(早鸟优惠最高减500元+金卡会员立减500元+赠环岛游+军舰岛+接送机+可升级丛林探险+双重套餐不同选择+含税费1550元+导游小费+中文接送机 )"
+                             class="title">【五月美食节】上海出发塞班岛6天5晚自...
+                        </div>
+                        <span class="price">¥3180起</span>
+                    </a></li>
+                    <li><a href="javascript:void(0);" target="_blank"><span class="image"><img
+                            src="./images/wKgBEFsscoCAVoO2AAOWOCBnxfs33.jpeg" height="70"
+                            width="100"></span>
+                        <div title="ins网红拍照圣地·上海直飞美娜多5天自由行(网红无边泳池+布纳肯海龟合照+可考潜水证+深潜教学+追海豚+滑翔伞)" class="title">
+                            ins网红拍照圣地·上海直飞美娜多5天自...
+                        </div>
+                        <span class="price">¥3280起</span>
+                    </a></li>
+                    <li><a href="javascript:void(0);" target="_blank"><span class="image"><img
+                            src="./images/wKgED1uQ-eOAMAiMAAU0ehvmPqA28.jpeg" height="70"
+                            width="100"></span>
+                        <div title="金卡最高立减500+畅享一价全包·上海往返马尔代夫鲁滨逊努努岛7天5晚自由行（水屋带私人泳池+精彩晚会DJ表演+全天托儿服务+锦鲤免费升级房型/水飞上岛+可订库拉玛提岛/阿玛瑞/波杜希蒂岛/神仙珊瑚岛/奥臻岛/芙花芬岛/莫凡彼岛/尼亚玛/奥静岛）"
+                             class="title">金卡最高立减500+畅享一价全包·上海往...
+                        </div>
+                        <span class="price">¥10680起</span>
+                    </a></li>
+                    <li><a href="javascript:void(0);" target="_blank"><span class="image"><img
+                            src="./images/wKgED1xFn0SAXJ-1AAKOKgZepzM541.png" height="70"
+                            width="100"></span>
+                        <div title="北京直飞普吉岛7天自由行（端午/暑期惊喜优惠+最高立减968元+家庭/蜜月同款+屋顶/星光泳池+网红酒店/轻奢别墅任意搭+可定制曼谷/清迈多地连线+赠电话卡/VIP接送机/旅游保险）"
+                             class="title">北京直飞普吉岛7天自由行（端午/暑期惊...
+                        </div>
+                        <span class="price">¥3250起</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--内容-->
+<div class="footer" id="footer">
+    <div class="ft-content" style="width: 1105px">
+        <div class="ft-info clearfix">
+            <dl class="ft-info-col ft-info-intro">
+                <dt>骡窝窝旅游网</dt>
+                <dd>叩丁狼是一家专注于培养高级IT技术人才，为学员提供定制化IT职业规划方案及</dd>
+                <dd>意见咨询服务的教育科技公司，为您提供海量优质课程，以及创新的线上线下学</dd>
+                <dd>习体验，帮助您获得全新的个人发展和能力提升。</dd>
+            </dl>
+            <dl class="ft-info-col ft-info-qrcode">
+                <dd>
+                    <span class="ft-qrcode-tejia"></span>
+                </dd>
+                <dd>
+                    <span class="ft-qrcode-weixin"></span>
+                </dd>
+                <dd>
+                    <span class="ft-qrcode-weixin" style="background-image: url(./images/qrcode.jpg)"></span>
+                </dd>
+            </dl>
+            <dl class="ft-info-social">
+                <dt>向崇尚自由的加勒比海盗致敬！</dt>
+                <dd>
+                    <a class="ft-social-weibo" target="_blank" href="javascript:void(0);" rel="nofollow"><i
+                            class="ft-social-icon"></i></a>
+                    <a class="ft-social-qqt" target="_blank" href="javascript:void(0);" rel="nofollow"><i
+                            class="ft-social-icon"></i></a>
+                    <a class="ft-social-qzone" target="_blank" href="javascript:void(0);" rel="nofollow"><i
+                            class="ft-social-icon"></i></a>
+                </dd>
+            </dl>
+        </div>
+
+        <div class="ft-links">
+            <a target="_blank" href="http://china.makepolo.com/">马可波罗</a><a target="_blank"
+                                                                            href="http://www.onlylady.com/">Onlylady女人志</a><a
+                target="_blank"
+                href="http://trip.elong.com/">艺龙旅游指南</a><a target="_blank" href="http://www.cncn.com/">欣欣旅游网</a>
+            <a target="_blank" href="http://www.8264.com/">户外运动</a><a target="_blank"
+                                                                      href="http://www.yue365.com/">365音乐网</a><a
+                target="_blank"
+                href="http://ishare.iask.sina.com.cn/">爱问共享资料</a><a target="_blank"
+                                                                    href="http://www.uzai.com/">旅游网</a>
+            <a target="_blank" href="http://www.zongheng.com/">小说网</a>
+            <a target="_blank" href="http://www.xuexila.com/">学习啦</a><a target="_blank"
+                                                                        href="http://www.yododo.com/">游多多自助游</a><a
+                target="_blank" href="http://www.zhcpic.com/">问答</a><a
+                target="_blank" href="http://huoche.mafengwo.cn/">火车时刻表</a>
+            <a target="_blank" href="http://www.lvmama.com/">驴妈妈旅游网</a>
+            <a target="_blank" href="http://www.haodou.com/">好豆美食网</a><a target="_blank"
+                                                                         href="http://www.taoche.com/">二手车</a><a
+                target="_blank" href="http://www.lvye.cn/">绿野户外</a><a
+                target="_blank" href="http://www.tuniu.com/">途牛旅游网</a>
+            <a target="_blank" href="http://www.mapbar.com/">图吧</a>
+            <a target="_blank" href="http://www.chnsuv.com/">SUV联合越野</a><a target="_blank"
+                                                                           href="http://www.uc.cn/">手机浏览器</a><a
+                target="_blank" href="http://sh.city8.com/">上海地图</a><a
+                target="_blank" href="http://www.tianqi.com/">天气预报查询</a>
+            <a target="_blank" href="http://www.ly.com/">同程旅游</a>
+            <a target="_blank" href="http://www.tieyou.com/">火车票</a><a target="_blank"
+                                                                       href="http://www.yunos.com/">YunOS</a><a
+                target="_blank" href="http://you.ctrip.com/">携程旅游</a><a
+                target="_blank" href="http://www.jinjiang.com/">锦江旅游</a>
+            <a target="_blank" href="http://www.huoche.net/">火车时刻表</a>
+            <a target="_blank" href="http://www.tripadvisor.cn/">TripAdvisor</a><a target="_blank"
+                                                                                   href="http://www.tianxun.com/">天巡网</a><a
+                target="_blank" href="http://www.mayi.com/">短租房</a><a
+                target="_blank" href="http://www.zuzuche.com/">租租车</a>
+            <a target="_blank" href="http://www.5fen.com/">五分旅游网</a>
+            <a target="_blank" href="http://www.zhuna.cn/">酒店预订</a><a target="_blank"
+                                                                      href="http://www.ailvxing.com/">爱旅行网</a><a
+                target="_blank"
+                href="http://360.mafengwo.cn/all.php">旅游</a><a target="_blank"
+                                                               href="http://vacations.ctrip.com/">旅游网</a>
+            <a target="_blank" href="http://www.wed114.cn/">wed114结婚网</a>
+            <a target="_blank" href="http://www.chexun.com/">车讯网</a><a target="_blank"
+                                                                       href="http://www.aoyou.com/">遨游旅游网</a><a
+                target="_blank" href="http://www.91.com/">手机</a>
+            <a href="javascript:void(0);" target="_blank">更多友情链接&gt;&gt;</a>
+        </div>
+    </div>
+</div>
+<script src="./lib/jquery.1.11.1.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="js/index_journeyList.js"></script>
+</body>
+
+</html>
